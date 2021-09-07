@@ -53,3 +53,11 @@ person = {
   lastName: "Grohl",
   age: 30,
 }
+
+// Type Inference
+let msg2 = "Use type inference"
+msg = "Use new type inference"
+
+window.addEventListener("click", (e) => {
+  console.log(e.target);
+})
